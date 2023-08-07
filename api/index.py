@@ -8,7 +8,7 @@ from sklearn.exceptions import ConvergenceWarning
 import json
 import warnings
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from pymongo import MongoClient 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
